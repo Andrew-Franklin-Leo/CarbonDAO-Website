@@ -4,19 +4,15 @@
 const config = {
   title: 'CarbonDAO Documentation',
   tagline: 'Decentralized Carbon Credit Trading Platform',
-  favicon: 'img/favicon.ico',
-  url: 'https://docs.carbondao.example',
-  baseUrl: '/',
-  organizationName: 'carbondao',
-  projectName: 'carbon-dao-docs',
-
+  url: 'https://carbon-dao.github.io',
+  baseUrl: '/carbon-dao-web/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+  favicon: 'img/favicon.ico',
+  organizationName: 'carbon-dao', // Usually your GitHub org/user name.
+  projectName: 'carbon-dao-web', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   presets: [
     [
@@ -25,11 +21,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/carbondao/docs/tree/main/',
+          editUrl: 'https://github.com/carbon-dao/carbon-dao-web/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/carbondao/docs/tree/main/blog/',
+          editUrl: 'https://github.com/carbon-dao/carbon-dao-web/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -38,13 +34,15 @@ const config = {
     ],
   ],
 
-  plugins: [],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: 'CarbonDAO',
+        logo: {
+          alt: 'CarbonDAO Logo',
+          src: 'img/logo.svg',
+        },
         items: [
           {
             type: 'docSidebar',
@@ -54,7 +52,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/carbondao/docs',
+            href: 'https://github.com/carbon-dao/carbon-dao-web',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,7 +96,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/carbondao/docs',
+                href: 'https://github.com/carbon-dao/carbon-dao-web',
               },
             ],
           },
