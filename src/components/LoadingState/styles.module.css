@@ -1,0 +1,81 @@
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 2rem;
+}
+
+.loadingIcon {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.spinner {
+  animation: rotate 2s linear infinite;
+}
+
+.loadingText {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pulse animation for loading text */
+.loadingText {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+/* Path animation for spinner */
+.spinner path {
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 576px) {
+  .loadingContainer {
+    min-height: 150px;
+    padding: 1.5rem;
+  }
+
+  .loadingText {
+    font-size: 1rem;
+  }
+}

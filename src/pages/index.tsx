@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import LoadingState from '@site/src/components/LoadingState';
 
 import styles from './index.module.css';
 
@@ -29,9 +30,16 @@ function HomepageHeader() {
 }
 
 function HomePageStatistics() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsVisible(true), 500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className={styles.statistics}>
-      <div className="container">
+      <div className={clsx('container', isVisible && 'page-enter')}>
         <div className={styles.statsGrid}>
           <div className={styles.statItem}>
             <h2>500K+</h2>
@@ -56,9 +64,16 @@ function HomePageStatistics() {
 }
 
 function HomePageTestimonials() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsVisible(true), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className={styles.testimonials}>
-      <div className="container">
+      <div className={clsx('container', isVisible && 'page-enter')}>
         <h2 className={styles.testimonialsTitle}>What Our Users Say</h2>
         <div className={styles.testimonialGrid}>
           <div className={styles.testimonialCard}>
@@ -82,9 +97,16 @@ function HomePageTestimonials() {
 }
 
 function HomePageCTA() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsVisible(true), 1500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className={styles.cta}>
-      <div className="container">
+      <div className={clsx('container', isVisible && 'page-enter')}>
         <div className={styles.ctaContent}>
           <h2>Start Making a Difference Today</h2>
           <p>Join the growing community of climate-conscious individuals and businesses making real environmental impact through carbon credits.</p>
@@ -108,12 +130,29 @@ function HomePageCTA() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return (
+      <Layout
+        title="Carbon Credit Trading Made Simple"
+        description="Trade carbon credits efficiently and make a real environmental impact through our decentralized platform.">
+        <LoadingState />
+      </Layout>
+    );
+  }
+
   return (
     <Layout
       title="Carbon Credit Trading Made Simple"
       description="Trade carbon credits efficiently and make a real environmental impact through our decentralized platform.">
-      <HomepageHeader />
-      <main>
+      <main className="page-enter">
+        <HomepageHeader />
         <HomePageStatistics />
         <HomepageFeatures />
         <HomePageTestimonials />
