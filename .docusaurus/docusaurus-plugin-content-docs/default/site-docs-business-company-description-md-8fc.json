@@ -5,10 +5,10 @@
   "source": "@site/docs/business/company-description.md",
   "sourceDirName": "business",
   "slug": "/business/company-description",
-  "permalink": "/docs/business/company-description",
+  "permalink": "/carbon-dao-web/docs/business/company-description",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/business/company-description.md",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/docs/business/company-description.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Executive Summary",
-    "permalink": "/docs/business/executive-summary"
+    "permalink": "/carbon-dao-web/docs/business/executive-summary"
   },
   "next": {
     "title": "Market Analysis",
-    "permalink": "/docs/business/market-analysis"
+    "permalink": "/carbon-dao-web/docs/business/market-analysis"
   }
 }

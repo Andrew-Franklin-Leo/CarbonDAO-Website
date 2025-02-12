@@ -5,10 +5,10 @@
   "source": "@site/docs/business/market-analysis.md",
   "sourceDirName": "business",
   "slug": "/business/market-analysis",
-  "permalink": "/docs/business/market-analysis",
+  "permalink": "/carbon-dao-web/docs/business/market-analysis",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/business/market-analysis.md",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/docs/business/market-analysis.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Company Description",
-    "permalink": "/docs/business/company-description"
+    "permalink": "/carbon-dao-web/docs/business/company-description"
   },
   "next": {
     "title": "Technical Architecture",
-    "permalink": "/docs/technical/architecture"
+    "permalink": "/carbon-dao-web/docs/technical/architecture"
   }
 }

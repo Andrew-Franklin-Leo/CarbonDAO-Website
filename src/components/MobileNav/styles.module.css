@@ -1,0 +1,157 @@
+.mobileNavWrapper {
+  display: none;
+}
+
+.hamburger {
+  position: relative;
+  width: 30px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: var(--ifm-color-primary);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger span:first-child {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger span:last-child {
+  bottom: 0;
+}
+
+.hamburger.active span:first-child {
+  transform: rotate(45deg);
+  top: 50%;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:last-child {
+  transform: rotate(-45deg);
+  bottom: 40%;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--ifm-background-color);
+  padding: 80px 24px 24px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.mobileMenu.isOpen {
+  transform: translateX(0);
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobileNavLink {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  padding: 8px 0;
+  transition: color 0.2s ease;
+}
+
+.mobileNavLink:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+.mobileNavCta {
+  margin: 24px 0;
+}
+
+.mobileNavCta .button {
+  width: 100%;
+  justify-content: center;
+}
+
+.mobileNavFooter {
+  margin-top: auto;
+  padding-top: 24px;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  text-align: center;
+}
+
+.mobileNavFooter p {
+  margin-bottom: 16px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.socialLinks a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.socialLinks a:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+@media screen and (max-width: 996px) {
+  .mobileNavWrapper {
+    display: block;
+  }
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .hamburger span {
+  background: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .mobileMenu {
+  background: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .mobileNavLink {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .mobileNavLink:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .socialLinks a {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .socialLinks a:hover {
+  color: var(--ifm-color-primary-lightest);
+}

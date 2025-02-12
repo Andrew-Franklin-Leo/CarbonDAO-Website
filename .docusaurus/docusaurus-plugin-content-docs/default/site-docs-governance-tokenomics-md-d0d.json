@@ -5,10 +5,10 @@
   "source": "@site/docs/governance/tokenomics.md",
   "sourceDirName": "governance",
   "slug": "/governance/tokenomics",
-  "permalink": "/docs/governance/tokenomics",
+  "permalink": "/carbon-dao-web/docs/governance/tokenomics",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/governance/tokenomics.md",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/docs/governance/tokenomics.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Governance Framework",
-    "permalink": "/docs/governance/framework"
+    "permalink": "/carbon-dao-web/docs/governance/framework"
   },
   "next": {
     "title": "Risk Management",
-    "permalink": "/docs/governance/risk-management"
+    "permalink": "/carbon-dao-web/docs/governance/risk-management"
   }
 }

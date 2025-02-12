@@ -5,10 +5,10 @@
   "source": "@site/docs/business/executive-summary.md",
   "sourceDirName": "business",
   "slug": "/business/executive-summary",
-  "permalink": "/docs/business/executive-summary",
+  "permalink": "/carbon-dao-web/docs/business/executive-summary",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/business/executive-summary.md",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/docs/business/executive-summary.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/docs/quick-start"
+    "permalink": "/carbon-dao-web/docs/quick-start"
   },
   "next": {
     "title": "Company Description",
-    "permalink": "/docs/business/company-description"
+    "permalink": "/carbon-dao-web/docs/business/company-description"
   }
 }

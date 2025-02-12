@@ -1,143 +1,45 @@
-# CarbonDAO Documentation & CMS
+# CarbonDAO Documentation
 
-A Docusaurus-powered documentation site and CMS for CarbonDAO, featuring automated blog post generation using multiple AI services.
+This is the documentation website for CarbonDAO, a decentralized carbon credit trading platform. The site is built with [Docusaurus](https://docusaurus.io/) and automatically deployed to GitHub Pages.
 
-## Features
+## 🌐 Website
 
-- TypeScript-based Docusaurus setup
-- Automated blog post generation using multiple AI services:
-  - Deepseek R1
-  - Llama 3.3
-  - Gemini Flash 2.0
-  - OpenRouter APIs
-  - Azure OpenAI (fallback)
-- Scheduled content generation
-- Content caching system
-- Rate limiting and quota management
-- Service health monitoring
-- Fallback mechanisms
+Visit our documentation at: https://carbon-dao.github.io/carbon-dao-web/
 
-## Setup
+## 🚀 Development
 
-1. Install dependencies:
+### Local Development
+
 ```bash
+# Install dependencies
 npm install
-```
 
-2. Configure environment variables:
-```bash
-cp .env.example .env
-```
-Edit `.env` with your API keys and preferences.
-
-3. Start the development server:
-```bash
+# Start development server
 npm start
 ```
 
-## Documentation Structure
+### Deployment
 
-- `/docs/` - Main documentation content
-- `/blog/` - Auto-generated and manual blog posts
-- `/src/` - Source code for custom components
-- `/scripts/` - Automation scripts for blog generation
+The website is automatically deployed to GitHub Pages when changes are pushed to the main branch. The deployment is handled by GitHub Actions.
 
-## Blog Generation
-
-### Manual Generation
+To deploy manually:
 
 ```bash
-npm run generate-blog
+# Build the website
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-### Scheduled Generation
+## 📝 Contributing
 
-```bash
-npm run schedule-blog
-```
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-The scheduler will run according to the cron schedule defined in your `.env` file.
+## 📄 License
 
-### Content Caching
-
-Generated content is cached for 24 hours by default. You can modify the cache duration in `.env`:
-
-```env
-BLOG_CACHE_DURATION=86400  # 24 hours in seconds
-```
-
-## Development
-
-### TypeScript
-
-The project uses TypeScript for type safety. Check types with:
-
-```bash
-npm run typecheck
-```
-
-### Custom Components
-
-Custom React components are located in `/src/components/`.
-
-### Styling
-
-CSS modules are used for component-specific styles.
-
-## Configuration Files
-
-- `docusaurus.config.js` - Main Docusaurus configuration
-- `sidebars.js` - Documentation navigation structure
-- `tsconfig.json` - TypeScript configuration
-- `.env` - Environment variables and API keys
-
-## Contributing
-
-1. Create a feature branch
-2. Make your changes
-3. Submit a pull request
-
-## Scripts
-
-- `npm start` - Start development server
-- `npm run build` - Build production site
-- `npm run serve` - Serve production build
-- `npm run generate-blog` - Generate blog posts manually
-- `npm run schedule-blog` - Start the blog generation scheduler
-
-## Monitoring
-
-Monitor the blog generation process through:
-
-- Logs in `cache/job-status.json`
-- Console output during generation
-- Service health checks
-
-## Troubleshooting
-
-### Common Issues
-
-1. API Rate Limits
-   - Adjust `RATE_LIMIT_DELAY` in `.env`
-   - Check service quotas
-
-2. Failed Generations
-   - Check service health status
-   - Verify API keys
-   - Review error logs
-
-3. TypeScript Errors
-   - Run `npm run typecheck`
-   - Check import paths
-   - Verify type definitions
-
-### Support
-
-For support:
-1. Check the documentation
-2. Review GitHub issues
-3. Contact the development team
-
-## License
-
-MIT License - see LICENSE file for details
+This project is licensed under the MIT License - see the LICENSE file for details.

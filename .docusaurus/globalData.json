@@ -1,73 +1,73 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/carbon-dao-web/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/carbon-dao-web/docs",
           "mainDocId": "introduction",
           "docs": [
             {
               "id": "business/company-description",
-              "path": "/docs/business/company-description",
+              "path": "/carbon-dao-web/docs/business/company-description",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "business/executive-summary",
-              "path": "/docs/business/executive-summary",
+              "path": "/carbon-dao-web/docs/business/executive-summary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "business/market-analysis",
-              "path": "/docs/business/market-analysis",
+              "path": "/carbon-dao-web/docs/business/market-analysis",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "governance/framework",
-              "path": "/docs/governance/framework",
+              "path": "/carbon-dao-web/docs/governance/framework",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "governance/risk-management",
-              "path": "/docs/governance/risk-management",
+              "path": "/carbon-dao-web/docs/governance/risk-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "governance/tokenomics",
-              "path": "/docs/governance/tokenomics",
+              "path": "/carbon-dao-web/docs/governance/tokenomics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "introduction",
-              "path": "/docs/introduction",
+              "path": "/carbon-dao-web/docs/introduction",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "quick-start",
-              "path": "/docs/quick-start",
+              "path": "/carbon-dao-web/docs/quick-start",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "technical/api-specifications",
-              "path": "/docs/technical/api-specifications",
+              "path": "/carbon-dao-web/docs/technical/api-specifications",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "technical/architecture",
-              "path": "/docs/technical/architecture",
+              "path": "/carbon-dao-web/docs/technical/architecture",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "technical/deployment",
-              "path": "/docs/technical/deployment",
+              "path": "/carbon-dao-web/docs/technical/deployment",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "technical/smart-contracts",
-              "path": "/docs/technical/smart-contracts",
+              "path": "/carbon-dao-web/docs/technical/smart-contracts",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -75,7 +75,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/introduction",
+                "path": "/carbon-dao-web/docs/introduction",
                 "label": "Introduction"
               }
             }
