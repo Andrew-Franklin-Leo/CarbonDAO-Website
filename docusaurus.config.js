@@ -4,13 +4,13 @@
 const config = {
   title: 'CarbonDAO Documentation',
   tagline: 'Decentralized Carbon Credit Trading Platform',
-  url: 'https://carbon-dao.github.io',
-  baseUrl: '/carbon-dao-web/',
-  onBrokenLinks: 'warn', // Changed from 'throw' to 'warn'
+  url: 'https://andrew-franklin-leo.github.io',
+  baseUrl: '/CarbonDAO-Website/',  // Updated to match repository name with correct casing
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'carbon-dao',
-  projectName: 'carbon-dao-web',
+  organizationName: 'Andrew-Franklin-Leo', // Updated to match GitHub username
+  projectName: 'CarbonDAO-Website', // Updated to match repository name
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -21,11 +21,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/carbon-dao/carbon-dao-web/tree/main/',
+          editUrl: 'https://github.com/Andrew-Franklin-Leo/CarbonDAO-Website/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/carbon-dao/carbon-dao-web/tree/main/blog/',
+          editUrl: 'https://github.com/Andrew-Franklin-Leo/CarbonDAO-Website/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,7 +52,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/carbon-dao/carbon-dao-web',
+            href: 'https://github.com/Andrew-Franklin-Leo/CarbonDAO-Website',
             label: 'GitHub',
             position: 'right',
           },
@@ -96,7 +96,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/carbon-dao/carbon-dao-web',
+                href: 'https://github.com/Andrew-Franklin-Leo/CarbonDAO-Website',
               },
             ],
           },
