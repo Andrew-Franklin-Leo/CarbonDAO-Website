@@ -5,10 +5,10 @@
   "source": "@site/docs/technical/smart-contracts.md",
   "sourceDirName": "technical",
   "slug": "/technical/smart-contracts",
-  "permalink": "/docs/technical/smart-contracts",
+  "permalink": "/carbon-dao-web/docs/technical/smart-contracts",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/technical/smart-contracts.md",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/docs/technical/smart-contracts.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Technical Architecture",
-    "permalink": "/docs/technical/architecture"
+    "permalink": "/carbon-dao-web/docs/technical/architecture"
   },
   "next": {
     "title": "API Specifications",
-    "permalink": "/docs/technical/api-specifications"
+    "permalink": "/carbon-dao-web/docs/technical/api-specifications"
   }
 }

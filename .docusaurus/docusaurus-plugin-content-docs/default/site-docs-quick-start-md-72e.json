@@ -5,10 +5,10 @@
   "source": "@site/docs/quick-start.md",
   "sourceDirName": ".",
   "slug": "/quick-start",
-  "permalink": "/docs/quick-start",
+  "permalink": "/carbon-dao-web/docs/quick-start",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/quick-start.md",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/docs/quick-start.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/introduction"
+    "permalink": "/carbon-dao-web/docs/introduction"
   },
   "next": {
     "title": "Executive Summary",
-    "permalink": "/docs/business/executive-summary"
+    "permalink": "/carbon-dao-web/docs/business/executive-summary"
   }
 }

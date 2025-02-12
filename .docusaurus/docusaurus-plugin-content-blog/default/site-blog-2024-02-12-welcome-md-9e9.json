@@ -1,6 +1,6 @@
 {
-  "permalink": "/blog/welcome-to-carbondao",
-  "editUrl": "https://github.com/carbondao/docs/tree/main/blog/blog/2024-02-12-welcome.md",
+  "permalink": "/carbon-dao-web/blog/welcome-to-carbondao",
+  "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/blog/blog/2024-02-12-welcome.md",
   "source": "@site/blog/2024-02-12-welcome.md",
   "title": "Welcome to CarbonDAO",
   "description": "We are excited to launch the CarbonDAO documentation and blog platform. This space will serve as a central hub for all information related to our decentralized carbon credit trading platform.",
@@ -9,12 +9,12 @@
     {
       "inline": true,
       "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "permalink": "/carbon-dao-web/blog/tags/hello"
     },
     {
       "inline": true,
       "label": "carbondao",
-      "permalink": "/blog/tags/carbondao"
+      "permalink": "/carbon-dao-web/blog/tags/carbondao"
     }
   ],
   "readingTime": 0.59,

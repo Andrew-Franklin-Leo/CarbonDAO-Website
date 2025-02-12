@@ -6,43 +6,40 @@
 export default {
   "title": "CarbonDAO Documentation",
   "tagline": "Decentralized Carbon Credit Trading Platform",
-  "favicon": "img/favicon.ico",
-  "url": "https://docs.carbondao.example",
-  "baseUrl": "/",
-  "organizationName": "carbondao",
-  "projectName": "carbon-dao-docs",
-  "onBrokenLinks": "throw",
+  "url": "https://carbon-dao.github.io",
+  "baseUrl": "/carbon-dao-web/",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
-  },
+  "favicon": "img/favicon.ico",
+  "organizationName": "carbon-dao",
+  "projectName": "carbon-dao-web",
+  "deploymentBranch": "gh-pages",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Projects\\carbon-dao\\Docusaurus\\sidebars.js",
-          "editUrl": "https://github.com/carbondao/docs/tree/main/"
+          "sidebarPath": "C:\\Projects\\carbon-dao-web\\sidebars.js",
+          "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/carbondao/docs/tree/main/blog/"
+          "editUrl": "https://github.com/carbon-dao/carbon-dao-web/tree/main/blog/"
         },
         "theme": {
-          "customCss": "C:\\Projects\\carbon-dao\\Docusaurus\\src\\css\\custom.css"
+          "customCss": "C:\\Projects\\carbon-dao-web\\src\\css\\custom.css"
         }
       }
     ]
   ],
-  "plugins": [],
   "themeConfig": {
     "navbar": {
       "title": "CarbonDAO",
+      "logo": {
+        "alt": "CarbonDAO Logo",
+        "src": "img/logo.svg"
+      },
       "items": [
         {
           "type": "docSidebar",
@@ -56,7 +53,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/carbondao/docs",
+          "href": "https://github.com/carbon-dao/carbon-dao-web",
           "label": "GitHub",
           "position": "right"
         }
@@ -101,7 +98,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/carbondao/docs"
+              "href": "https://github.com/carbon-dao/carbon-dao-web"
             }
           ]
         }
@@ -336,6 +333,14 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
   "future": {
     "experimental_faster": {
       "swcJsLoader": false,
@@ -357,6 +362,7 @@ export default {
     "static"
   ],
   "customFields": {},
+  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

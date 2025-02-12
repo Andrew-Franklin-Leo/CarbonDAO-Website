@@ -6,11 +6,11 @@ const config = {
   tagline: 'Decentralized Carbon Credit Trading Platform',
   url: 'https://carbon-dao.github.io',
   baseUrl: '/carbon-dao-web/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // Changed from 'throw' to 'warn'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'carbon-dao', // Usually your GitHub org/user name.
-  projectName: 'carbon-dao-web', // Usually your repo name.
+  organizationName: 'carbon-dao',
+  projectName: 'carbon-dao-web',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 

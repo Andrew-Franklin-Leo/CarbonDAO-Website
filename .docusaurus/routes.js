@@ -3,156 +3,121 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/carbon-dao-web/blog',
+    component: ComponentCreator('/carbon-dao-web/blog', '8ec'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/carbon-dao-web/blog/archive',
+    component: ComponentCreator('/carbon-dao-web/blog/archive', '453'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/carbon-dao-web/blog/authors',
+    component: ComponentCreator('/carbon-dao-web/blog/authors', '3ea'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/carbon-dao-web/blog/tags',
+    component: ComponentCreator('/carbon-dao-web/blog/tags', 'e76'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/carbon-dao-web/blog/tags/carbondao',
+    component: ComponentCreator('/carbon-dao-web/blog/tags/carbondao', 'cc7'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/carbon-dao-web/blog/tags/hello',
+    component: ComponentCreator('/carbon-dao-web/blog/tags/hello', '173'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/carbon-dao-web/blog/welcome-to-carbondao',
+    component: ComponentCreator('/carbon-dao-web/blog/welcome-to-carbondao', 'a4c'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '885'),
-    exact: true
-  },
-  {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
-    exact: true
-  },
-  {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
-    exact: true
-  },
-  {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/carbondao',
-    component: ComponentCreator('/blog/tags/carbondao', 'e54'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '20c'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome-to-carbondao',
-    component: ComponentCreator('/blog/welcome-to-carbondao', '1d1'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '135'),
+    path: '/carbon-dao-web/docs',
+    component: ComponentCreator('/carbon-dao-web/docs', '1de'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '8d8'),
+        path: '/carbon-dao-web/docs',
+        component: ComponentCreator('/carbon-dao-web/docs', '781'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '17f'),
+            path: '/carbon-dao-web/docs',
+            component: ComponentCreator('/carbon-dao-web/docs', '567'),
             routes: [
               {
-                path: '/docs/business/company-description',
-                component: ComponentCreator('/docs/business/company-description', '424'),
+                path: '/carbon-dao-web/docs/business/company-description',
+                component: ComponentCreator('/carbon-dao-web/docs/business/company-description', 'ac1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/business/executive-summary',
-                component: ComponentCreator('/docs/business/executive-summary', 'b6c'),
+                path: '/carbon-dao-web/docs/business/executive-summary',
+                component: ComponentCreator('/carbon-dao-web/docs/business/executive-summary', '5e5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/business/market-analysis',
-                component: ComponentCreator('/docs/business/market-analysis', '3ca'),
+                path: '/carbon-dao-web/docs/business/market-analysis',
+                component: ComponentCreator('/carbon-dao-web/docs/business/market-analysis', '919'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/governance/framework',
-                component: ComponentCreator('/docs/governance/framework', '331'),
+                path: '/carbon-dao-web/docs/governance/framework',
+                component: ComponentCreator('/carbon-dao-web/docs/governance/framework', '870'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/governance/risk-management',
-                component: ComponentCreator('/docs/governance/risk-management', 'c5a'),
+                path: '/carbon-dao-web/docs/governance/risk-management',
+                component: ComponentCreator('/carbon-dao-web/docs/governance/risk-management', 'f36'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/governance/tokenomics',
-                component: ComponentCreator('/docs/governance/tokenomics', '766'),
+                path: '/carbon-dao-web/docs/governance/tokenomics',
+                component: ComponentCreator('/carbon-dao-web/docs/governance/tokenomics', 'a6b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/introduction',
-                component: ComponentCreator('/docs/introduction', 'f7d'),
+                path: '/carbon-dao-web/docs/introduction',
+                component: ComponentCreator('/carbon-dao-web/docs/introduction', '4b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/quick-start',
-                component: ComponentCreator('/docs/quick-start', 'b74'),
+                path: '/carbon-dao-web/docs/quick-start',
+                component: ComponentCreator('/carbon-dao-web/docs/quick-start', '14a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/api-specifications',
-                component: ComponentCreator('/docs/technical/api-specifications', '369'),
+                path: '/carbon-dao-web/docs/technical/api-specifications',
+                component: ComponentCreator('/carbon-dao-web/docs/technical/api-specifications', 'a23'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/architecture',
-                component: ComponentCreator('/docs/technical/architecture', '601'),
+                path: '/carbon-dao-web/docs/technical/architecture',
+                component: ComponentCreator('/carbon-dao-web/docs/technical/architecture', '071'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/deployment',
-                component: ComponentCreator('/docs/technical/deployment', 'b31'),
+                path: '/carbon-dao-web/docs/technical/deployment',
+                component: ComponentCreator('/carbon-dao-web/docs/technical/deployment', 'ee2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/smart-contracts',
-                component: ComponentCreator('/docs/technical/smart-contracts', '7ef'),
+                path: '/carbon-dao-web/docs/technical/smart-contracts',
+                component: ComponentCreator('/carbon-dao-web/docs/technical/smart-contracts', '36d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -163,8 +128,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/carbon-dao-web/',
+    component: ComponentCreator('/carbon-dao-web/', 'cc9'),
     exact: true
   },
   {
