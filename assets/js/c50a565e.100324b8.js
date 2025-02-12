@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcarbon_dao_docs=self.webpackChunkcarbon_dao_docs||[]).push([[897],{2080:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/carbon-dao-web/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

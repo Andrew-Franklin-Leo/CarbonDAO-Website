@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcarbon_dao_docs=self.webpackChunkcarbon_dao_docs||[]).push([[670],{8514:a=>{a.exports=JSON.parse('{"tags":[{"label":"hello","permalink":"/CarbonDAO-Website/blog/tags/hello","count":1},{"label":"carbondao","permalink":"/CarbonDAO-Website/blog/tags/carbondao","count":1}]}')}}]);

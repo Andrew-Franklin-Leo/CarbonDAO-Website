@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcarbon_dao_docs=self.webpackChunkcarbon_dao_docs||[]).push([[903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/carbon-dao-web/blog","blogTitle":"Blog","authorsListPath":"/carbon-dao-web/blog/authors"}')}}]);

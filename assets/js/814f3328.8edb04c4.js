@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcarbon_dao_docs=self.webpackChunkcarbon_dao_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to CarbonDAO","permalink":"/carbon-dao-web/blog/welcome-to-carbondao","unlisted":false,"date":"2024-02-12T00:00:00.000Z"}]}')}}]);

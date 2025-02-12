@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>CarbonDAO Documentation Blog</title>
-        <link>https://carbon-dao.github.io/carbon-dao-web/blog</link>
+        <link>https://andrew-franklin-leo.github.io/CarbonDAO-Website/blog</link>
         <description>CarbonDAO Documentation Blog</description>
         <lastBuildDate>Mon, 12 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,12 +10,12 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome to CarbonDAO]]></title>
-            <link>https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao</link>
-            <guid>https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao</guid>
+            <link>https://andrew-franklin-leo.github.io/CarbonDAO-Website/blog/welcome-to-carbondao</link>
+            <guid>https://andrew-franklin-leo.github.io/CarbonDAO-Website/blog/welcome-to-carbondao</guid>
             <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[We are excited to launch the CarbonDAO documentation and blog platform. This space will serve as a central hub for all information related to our decentralized carbon credit trading platform.]]></description>
             <content:encoded><![CDATA[<p>We are excited to launch the CarbonDAO documentation and blog platform. This space will serve as a central hub for all information related to our decentralized carbon credit trading platform.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao#what-to-expect" class="hash-link" aria-label="Direct link to What to Expect" title="Direct link to What to Expect">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://andrew-franklin-leo.github.io/CarbonDAO-Website/blog/welcome-to-carbondao#what-to-expect" class="hash-link" aria-label="Direct link to What to Expect" title="Direct link to What to Expect">​</a></h2>
 <p>Our blog will feature:</p>
 <ul>
 <li>Technical updates and releases</li>
@@ -24,14 +24,14 @@
 <li>Educational content about carbon credits</li>
 <li>Project spotlights and success stories</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://andrew-franklin-leo.github.io/CarbonDAO-Website/blog/welcome-to-carbondao#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
 <p>If you're new to CarbonDAO, we recommend:</p>
 <ol>
-<li>Reading our <a href="https://carbon-dao.github.io/carbon-dao-web/docs/introduction">Introduction</a></li>
-<li>Following our <a href="https://carbon-dao.github.io/carbon-dao-web/docs/quick-start">Quick Start Guide</a></li>
-<li>Exploring our <a href="https://carbon-dao.github.io/carbon-dao-web/docs/technical/architecture">Technical Documentation</a></li>
+<li>Reading our <a href="https://andrew-franklin-leo.github.io/CarbonDAO-Website/docs/introduction">Introduction</a></li>
+<li>Following our <a href="https://andrew-franklin-leo.github.io/CarbonDAO-Website/docs/quick-start">Quick Start Guide</a></li>
+<li>Exploring our <a href="https://andrew-franklin-leo.github.io/CarbonDAO-Website/docs/technical/architecture">Technical Documentation</a></li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stay-connected">Stay Connected<a href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao#stay-connected" class="hash-link" aria-label="Direct link to Stay Connected" title="Direct link to Stay Connected">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stay-connected">Stay Connected<a href="https://andrew-franklin-leo.github.io/CarbonDAO-Website/blog/welcome-to-carbondao#stay-connected" class="hash-link" aria-label="Direct link to Stay Connected" title="Direct link to Stay Connected">​</a></h2>
 <ul>
 <li>Join our Discord community</li>
 <li>Follow us on Twitter</li>
