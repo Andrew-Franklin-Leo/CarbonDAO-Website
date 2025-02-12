@@ -19,8 +19,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/img/carbon-pattern.png');
-  opacity: 0.1;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.1) 1px, transparent 0);
+  background-size: 20px 20px;
   pointer-events: none;
 }
 
