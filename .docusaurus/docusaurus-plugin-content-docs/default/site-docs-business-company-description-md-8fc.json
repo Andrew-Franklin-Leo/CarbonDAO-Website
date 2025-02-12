@@ -1,0 +1,27 @@
+{
+  "id": "business/company-description",
+  "title": "Company Description",
+  "description": "Overview",
+  "source": "@site/docs/business/company-description.md",
+  "sourceDirName": "business",
+  "slug": "/business/company-description",
+  "permalink": "/docs/business/company-description",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/business/company-description.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Executive Summary",
+    "permalink": "/docs/business/executive-summary"
+  },
+  "next": {
+    "title": "Market Analysis",
+    "permalink": "/docs/business/market-analysis"
+  }
+}

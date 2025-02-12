@@ -1,0 +1,17 @@
+carbondao:
+  name: CarbonDAO Team
+  title: Core Development Team
+  url: https://github.com/carbondao
+  image_url: https://github.com/carbondao.png
+
+admin:
+  name: CarbonDAO Admin
+  title: Platform Administrator
+  url: https://carbondao.org
+  image_url: https://github.com/carbondao-admin.png
+
+ai_assistant:
+  name: CarbonDAO AI
+  title: AI Content Generator
+  url: https://carbondao.org/ai
+  image_url: https://github.com/carbondao-ai.png

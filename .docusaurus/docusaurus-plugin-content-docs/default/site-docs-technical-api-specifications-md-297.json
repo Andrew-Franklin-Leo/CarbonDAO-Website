@@ -1,0 +1,27 @@
+{
+  "id": "technical/api-specifications",
+  "title": "API Specifications",
+  "description": "Overview",
+  "source": "@site/docs/technical/api-specifications.md",
+  "sourceDirName": "technical",
+  "slug": "/technical/api-specifications",
+  "permalink": "/docs/technical/api-specifications",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/technical/api-specifications.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Smart Contracts",
+    "permalink": "/docs/technical/smart-contracts"
+  },
+  "next": {
+    "title": "Deployment Guide",
+    "permalink": "/docs/technical/deployment"
+  }
+}

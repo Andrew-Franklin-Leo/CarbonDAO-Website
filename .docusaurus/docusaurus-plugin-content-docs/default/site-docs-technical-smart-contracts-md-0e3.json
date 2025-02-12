@@ -1,0 +1,27 @@
+{
+  "id": "technical/smart-contracts",
+  "title": "Smart Contracts",
+  "description": "Overview",
+  "source": "@site/docs/technical/smart-contracts.md",
+  "sourceDirName": "technical",
+  "slug": "/technical/smart-contracts",
+  "permalink": "/docs/technical/smart-contracts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/technical/smart-contracts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technical Architecture",
+    "permalink": "/docs/technical/architecture"
+  },
+  "next": {
+    "title": "API Specifications",
+    "permalink": "/docs/technical/api-specifications"
+  }
+}

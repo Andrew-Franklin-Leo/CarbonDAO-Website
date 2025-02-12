@@ -1,0 +1,27 @@
+{
+  "id": "business/market-analysis",
+  "title": "Market Analysis",
+  "description": "Carbon Credit Market Overview",
+  "source": "@site/docs/business/market-analysis.md",
+  "sourceDirName": "business",
+  "slug": "/business/market-analysis",
+  "permalink": "/docs/business/market-analysis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/business/market-analysis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Company Description",
+    "permalink": "/docs/business/company-description"
+  },
+  "next": {
+    "title": "Technical Architecture",
+    "permalink": "/docs/technical/architecture"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "business/company-description",
+              "path": "/docs/business/company-description",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "business/executive-summary",
+              "path": "/docs/business/executive-summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "business/market-analysis",
+              "path": "/docs/business/market-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/framework",
+              "path": "/docs/governance/framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/risk-management",
+              "path": "/docs/governance/risk-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "governance/tokenomics",
+              "path": "/docs/governance/tokenomics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quick-start",
+              "path": "/docs/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/api-specifications",
+              "path": "/docs/technical/api-specifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/architecture",
+              "path": "/docs/technical/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/deployment",
+              "path": "/docs/technical/deployment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/smart-contracts",
+              "path": "/docs/technical/smart-contracts",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/introduction",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

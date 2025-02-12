@@ -1,0 +1,27 @@
+{
+  "id": "technical/architecture",
+  "title": "Technical Architecture",
+  "description": "System Overview",
+  "source": "@site/docs/technical/architecture.md",
+  "sourceDirName": "technical",
+  "slug": "/technical/architecture",
+  "permalink": "/docs/technical/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/technical/architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Market Analysis",
+    "permalink": "/docs/business/market-analysis"
+  },
+  "next": {
+    "title": "Smart Contracts",
+    "permalink": "/docs/technical/smart-contracts"
+  }
+}

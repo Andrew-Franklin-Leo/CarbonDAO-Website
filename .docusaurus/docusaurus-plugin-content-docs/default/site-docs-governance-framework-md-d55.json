@@ -1,0 +1,27 @@
+{
+  "id": "governance/framework",
+  "title": "Governance Framework",
+  "description": "Overview",
+  "source": "@site/docs/governance/framework.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/framework",
+  "permalink": "/docs/governance/framework",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/governance/framework.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment Guide",
+    "permalink": "/docs/technical/deployment"
+  },
+  "next": {
+    "title": "Tokenomics",
+    "permalink": "/docs/governance/tokenomics"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "technical/deployment",
+  "title": "Deployment Guide",
+  "description": "Infrastructure Overview",
+  "source": "@site/docs/technical/deployment.md",
+  "sourceDirName": "technical",
+  "slug": "/technical/deployment",
+  "permalink": "/docs/technical/deployment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/technical/deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Specifications",
+    "permalink": "/docs/technical/api-specifications"
+  },
+  "next": {
+    "title": "Governance Framework",
+    "permalink": "/docs/governance/framework"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-885": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-4-de-4ef"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/carbondao-e54": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-4-de-4ef"
+      }
+    ],
+    "__props": "__props---blog-tags-carbondao-7-af-0d2"
+  },
+  "/blog/tags/hello-20c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-4-de-4ef"
+      }
+    ],
+    "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/welcome-to-carbondao-1d1": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcome-to-carbondao-9-e-9-b42"
+  },
+  "/docs-135": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-8d8": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-17f": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/business/company-description-424": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-business-company-description-8-fc-7bb"
+  },
+  "/docs/business/executive-summary-b6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-business-executive-summarybbc-072"
+  },
+  "/docs/business/market-analysis-3ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-business-market-analysis-5-d-3-8e6"
+  },
+  "/docs/governance/framework-331": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-governance-frameworkd-55-a61"
+  },
+  "/docs/governance/risk-management-c5a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-governance-risk-management-6-cb-d34"
+  },
+  "/docs/governance/tokenomics-766": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-governance-tokenomicsd-0-d-68d"
+  },
+  "/docs/introduction-f7d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introductiona-09-6b4"
+  },
+  "/docs/quick-start-b74": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-quick-start-72-e-2df"
+  },
+  "/docs/technical/api-specifications-369": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-technical-api-specifications-297-aaa"
+  },
+  "/docs/technical/architecture-601": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-technical-architecturebea-db9"
+  },
+  "/docs/technical/deployment-b31": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-technical-deployment-35-f-9d4"
+  },
+  "/docs/technical/smart-contracts-7ef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-technical-smart-contracts-0-e-3-ad8"
+  },
+  "/-e5f": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---a-74-9d6"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

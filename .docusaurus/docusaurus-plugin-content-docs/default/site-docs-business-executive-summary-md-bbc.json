@@ -1,0 +1,27 @@
+{
+  "id": "business/executive-summary",
+  "title": "Executive Summary",
+  "description": "CarbonDAO is a pioneering decentralized platform that revolutionizes the carbon credit trading market through blockchain technology. Our platform addresses the critical challenges in the current carbon credit market by providing transparency, efficiency, and accessibility to all participants.",
+  "source": "@site/docs/business/executive-summary.md",
+  "sourceDirName": "business",
+  "slug": "/business/executive-summary",
+  "permalink": "/docs/business/executive-summary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/business/executive-summary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/docs/quick-start"
+  },
+  "next": {
+    "title": "Company Description",
+    "permalink": "/docs/business/company-description"
+  }
+}

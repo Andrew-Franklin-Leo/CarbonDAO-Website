@@ -1,0 +1,23 @@
+{
+  "id": "governance/risk-management",
+  "title": "Risk Management",
+  "description": "Overview",
+  "source": "@site/docs/governance/risk-management.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/risk-management",
+  "permalink": "/docs/governance/risk-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/carbondao/docs/tree/main/docs/governance/risk-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tokenomics",
+    "permalink": "/docs/governance/tokenomics"
+  }
+}
