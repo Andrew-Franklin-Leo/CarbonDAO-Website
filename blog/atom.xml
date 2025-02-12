@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://carbon-dao.github.io/carbon-dao-web/blog</id>
+    <title>CarbonDAO Documentation Blog</title>
+    <updated>2024-02-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://carbon-dao.github.io/carbon-dao-web/blog"/>
+    <subtitle>CarbonDAO Documentation Blog</subtitle>
+    <icon>https://carbon-dao.github.io/carbon-dao-web/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to CarbonDAO]]></title>
+        <id>https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao</id>
+        <link href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao"/>
+        <updated>2024-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to launch the CarbonDAO documentation and blog platform. This space will serve as a central hub for all information related to our decentralized carbon credit trading platform.]]></summary>
+        <content type="html"><![CDATA[<p>We are excited to launch the CarbonDAO documentation and blog platform. This space will serve as a central hub for all information related to our decentralized carbon credit trading platform.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao#what-to-expect" class="hash-link" aria-label="Direct link to What to Expect" title="Direct link to What to Expect">​</a></h2>
+<p>Our blog will feature:</p>
+<ul>
+<li>Technical updates and releases</li>
+<li>Market insights and analysis</li>
+<li>Community updates and governance proposals</li>
+<li>Educational content about carbon credits</li>
+<li>Project spotlights and success stories</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<p>If you're new to CarbonDAO, we recommend:</p>
+<ol>
+<li>Reading our <a href="https://carbon-dao.github.io/carbon-dao-web/docs/introduction">Introduction</a></li>
+<li>Following our <a href="https://carbon-dao.github.io/carbon-dao-web/docs/quick-start">Quick Start Guide</a></li>
+<li>Exploring our <a href="https://carbon-dao.github.io/carbon-dao-web/docs/technical/architecture">Technical Documentation</a></li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stay-connected">Stay Connected<a href="https://carbon-dao.github.io/carbon-dao-web/blog/welcome-to-carbondao#stay-connected" class="hash-link" aria-label="Direct link to Stay Connected" title="Direct link to Stay Connected">​</a></h2>
+<ul>
+<li>Join our Discord community</li>
+<li>Follow us on Twitter</li>
+<li>Participate in governance</li>
+</ul>
+<p>We look forward to building a more sustainable future together!</p>]]></content>
+        <author>
+            <name>CarbonDAO Team</name>
+            <uri>https://github.com/carbondao</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="carbondao" term="carbondao"/>
+    </entry>
+</feed>
