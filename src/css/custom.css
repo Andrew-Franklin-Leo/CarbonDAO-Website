@@ -1,30 +1,177 @@
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
- * work well with React-based documentation websites.
+ * work well for content-first websites.
  */
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #00875A;
+  --ifm-color-primary-dark: #007951;
+  --ifm-color-primary-darker: #007048;
+  --ifm-color-primary-darkest: #005C3F;
+  --ifm-color-primary-light: #009563;
+  --ifm-color-primary-lighter: #00A36C;
+  --ifm-color-primary-lightest: #00B775;
+  
+  /* Complementary Colors */
+  --ifm-color-success: #4CAF50;
+  --ifm-color-info: #2196F3;
+  --ifm-color-warning: #FF9800;
+  --ifm-color-danger: #F44336;
+
+  /* Custom Colors */
+  --custom-background-light: #F8FBF9;
+  --custom-text-color: #2C3E50;
+  --custom-border-radius: 8px;
+  --custom-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --custom-transition: all 0.3s ease;
+
+  /* Code highlights */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode colors */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #00B775;
+  --ifm-color-primary-dark: #00A36C;
+  --ifm-color-primary-darker: #009563;
+  --ifm-color-primary-darkest: #007951;
+  --ifm-color-primary-light: #00CB7E;
+  --ifm-color-primary-lighter: #00DF87;
+  --ifm-color-primary-lightest: #00F390;
+  --custom-background-light: #1A2234;
+  --custom-text-color: #E4E6EB;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* Global Typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--custom-text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improved Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* Enhanced Buttons */
+.button {
+  border-radius: var(--custom-border-radius);
+  transition: var(--custom-transition);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  box-shadow: var(--custom-box-shadow);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+}
+
+.button--secondary {
+  background-color: white;
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+/* Card Styles */
+.card {
+  border-radius: var(--custom-border-radius);
+  box-shadow: var(--custom-box-shadow);
+  transition: var(--custom-transition);
+  background-color: var(--ifm-background-color);
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar Improvements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: var(--ifm-background-color);
+}
+
+.navbar__brand {
+  font-weight: 700;
+}
+
+.navbar__link {
+  font-weight: 600;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Footer Enhancements */
+.footer {
+  background-color: var(--custom-background-light);
+  padding: 4rem 0;
+}
+
+.footer__link-item {
+  transition: var(--custom-transition);
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .hero {
+    padding: 2rem;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    width: 100%;
+  }
 }
